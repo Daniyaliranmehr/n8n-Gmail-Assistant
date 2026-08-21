@@ -21,6 +21,12 @@ Instead of manually reading long emails, users receive:
 
 ## Features
 
+### User Registration
+
+- Allow users to connect their Gmail account through Telegram.
+- Link Telegram users with their Gmail accounts for personalized email assistance.
+- Support multiple users with separate accounts.
+
 ### Email Intelligence
 
 - Automatically analyze incoming Gmail messages.
@@ -31,14 +37,7 @@ Instead of manually reading long emails, users receive:
 ### AI Email Analysis
 
 - Generate concise email summaries.
-- Extract important information:
-  - Dates
-  - Times
-  - Names
-  - Companies
-  - URLs
-  - Meeting links
-  - Attachments
+- Extract key information from emails.
 - Classify email priority:
   - High
   - Medium
@@ -76,6 +75,7 @@ The goal is to build a complete AI email assistant capable of understanding emai
 - [x] Improve HTML parsing and email content cleaning.
 - [x] Support one-click AI-generated replies directly from Telegram.
 - [x] Store email and reply information for future processing.
+- [x] Add user registration and link Telegram users with their Gmail accounts.
 - [ ] Reply to specific emails using message IDs instead of only thread IDs.
 - [ ] Add email categories (work, personal, promotions, newsletters, etc.).
 - [ ] Add calendar event creation for meeting requests.
@@ -96,6 +96,12 @@ The goal is to build a complete AI email assistant capable of understanding emai
 
 
 ## Changelog
+
+### v0.5.0 - User Registration & Account Linking
+
+- Added user registration through Telegram.
+- Added Gmail account linking for Telegram users.
+- Added support for personalized email notifications per user.
 
 ### v0.4.0 - Telegram Reply Assistant
 

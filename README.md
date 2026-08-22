@@ -50,6 +50,7 @@ Instead of manually reading long emails, users receive:
 - Review suggested replies.
 - Send AI-generated replies to Gmail with one click.
 - Receive confirmation after successful delivery.
+- Reply to specific emails using message IDs.
 
 
 ## Technologies
@@ -76,7 +77,7 @@ The goal is to build a complete AI email assistant capable of understanding emai
 - [x] Support one-click AI-generated replies directly from Telegram.
 - [x] Store email and reply information for future processing.
 - [x] Add user registration and link Telegram users with their Gmail accounts.
-- [ ] Reply to specific emails using message IDs instead of only thread IDs.
+- [x] Reply to specific emails using message IDs instead of only thread IDs.
 - [ ] Add email categories (work, personal, promotions, newsletters, etc.).
 - [ ] Add calendar event creation for meeting requests.
 - [ ] Use advanced paid LLM APIs for improved quality and reliability.
@@ -96,6 +97,11 @@ The goal is to build a complete AI email assistant capable of understanding emai
 
 
 ## Changelog
+
+### v0.6.0 - Message-Specific Replies
+
+- Added support for replying to specific emails using message IDs.
+- Improved reply accuracy by targeting the original email message.
 
 ### v0.5.0 - User Registration & Account Linking
 

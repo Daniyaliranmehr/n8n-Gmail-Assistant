@@ -98,6 +98,10 @@ The goal is to build a complete AI email assistant capable of understanding emai
 
 ## Changelog
 
+### v0.6.1 - Email Reply Content Cleaning
+
+- Improved email cleaning for replied messages.
+
 ### v0.6.0 - Message-Specific Replies
 
 - Added support for replying to specific emails using message IDs.

@@ -42,6 +42,7 @@ Instead of manually reading long emails, users receive:
   - High
   - Medium
   - Low
+- Automatically categorize emails based on their content.
 - Detect promotional emails and potential spam.
 
 ### Telegram Assistant
@@ -51,7 +52,6 @@ Instead of manually reading long emails, users receive:
 - Send AI-generated replies to Gmail with one click.
 - Receive confirmation after successful delivery.
 - Reply to specific emails using message IDs.
-
 
 ## Technologies
 
@@ -78,7 +78,7 @@ The goal is to build a complete AI email assistant capable of understanding emai
 - [x] Store email and reply information for future processing.
 - [x] Add user registration and link Telegram users with their Gmail accounts.
 - [x] Reply to specific emails using message IDs instead of only thread IDs.
-- [ ] Add email categories (work, personal, promotions, newsletters, etc.).
+- [x] Add email categories (work, personal, promotions, newsletters, etc.).
 - [ ] Add calendar event creation for meeting requests.
 - [ ] Use advanced paid LLM APIs for improved quality and reliability.
 - [ ] Add memory to maintain context from previous conversations.
@@ -97,6 +97,11 @@ The goal is to build a complete AI email assistant capable of understanding emai
 
 
 ## Changelog
+
+### v0.7.0 - Email Categorization
+
+- Added AI-powered email categorization.
+- Added category information to email analysis and storage.
 
 ### v0.6.1 - Email Reply Content Cleaning
 

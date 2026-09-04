@@ -98,6 +98,11 @@ The goal is to build a complete AI email assistant capable of understanding emai
 
 ## Changelog
 
+v0.7.1 - Reply Status Tracking
+
+- Fixed email status tracking after successful replies.
+- Updated the analyzed email status from pending to replied after sending a reply.
+
 ### v0.7.0 - Email Categorization
 
 - Added AI-powered email categorization.

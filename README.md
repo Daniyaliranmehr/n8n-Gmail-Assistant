@@ -27,6 +27,17 @@ Instead of manually reading long emails, users receive:
 - Link Telegram users with their Gmail accounts for personalized email assistance.
 - Support multiple users with separate accounts.
 
+### Multi-User Support
+
+- Support multiple users using the same Gmail Assistant workflows.
+- Maintain a separate Gmail account and Telegram account for each user.
+- Store each user's Gmail OAuth refresh token securely for authentication.
+- Refresh Gmail access tokens independently for each user.
+- Process each user's emails independently.
+- Send email analyses and reply confirmations to the correct Telegram user.
+- Send replies through the correct user's Gmail account.
+
+
 ### Email Intelligence
 
 - Automatically analyze incoming Gmail messages.
@@ -79,6 +90,7 @@ The goal is to build a complete AI email assistant capable of understanding emai
 - [x] Add user registration and link Telegram users with their Gmail accounts.
 - [x] Reply to specific emails using message IDs instead of only thread IDs.
 - [x] Add email categories (work, personal, promotions, newsletters, etc.).
+- [x] Support multiple Gmail accounts.
 - [ ] Add calendar event creation for meeting requests.
 - [ ] Use advanced paid LLM APIs for improved quality and reliability.
 - [ ] Add memory to maintain context from previous conversations.
@@ -92,11 +104,19 @@ The goal is to build a complete AI email assistant capable of understanding emai
 - [ ] Learn user writing style and preferences.
 - [ ] Add multi-language email support.
 - [ ] Improve phishing and security detection.
-- [ ] Support multiple Gmail accounts.
 - [ ] Build a dashboard for email insights and analytics.
 
 
 ## Changelog
+
+### v0.8.0 - Multi-User Handling
+
+- Added multi-user support.
+- Added independent Gmail authentication for each user.
+- Added per-user Gmail access token handling.
+- Added independent email processing for each registered user.
+- Added user-specific Telegram notifications.
+- Added user-specific Gmail reply handling.
 
 #### v0.7.1 - Reply Status Tracking
 
